@@ -1,7 +1,7 @@
 <div class="container">
   <div class="row justify-content-center align-items-center">
 
-    <div class="col col-lgl-6">
+    <div class="col-lg-6">
       <div class="text-center">
         <h1 [hidden]="isCross" class="uppercase text-danger">Player One Turn</h1>
         <h1 [hidden]="!isCross" class="uppercase text-danger">Player Two Turn</h1>
@@ -18,7 +18,7 @@
       </div>
     </div>
 
-    <div class="col col-lgl-6 text-center">
+    <div class="col-lg-6 text-center">
       <h1 class="text-uppercase"> Game Over {{ winMessage }} </h1>
       <button 
       (click)="reloadGame()"
